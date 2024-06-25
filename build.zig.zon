@@ -1,11 +1,11 @@
 .{
-	.name = "logz",
-	.paths = .{""},
-	.version = "0.0.0",
-	.dependencies = .{
-		.metrics = .{
-			.url = "https://github.com/karlseguin/metrics.zig/archive/8892dce43b46a69c8e736329629f38df232adee1.tar.gz",
-			.hash = "1220232ab38d0c2cfb10680115c17ad2fa1a8531dbaf8bbfb359ec67e80c7d5f5758"
-		},
-	},
+    .name = "logz",
+    .version = "0.0.0",
+    .paths = .{
+        "src",
+        "README.md",
+        "LICENSE",
+        "build.zig",
+        "build.zig.zon",
+    },
 }
