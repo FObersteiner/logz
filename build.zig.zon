@@ -1,11 +1,7 @@
 .{
     .name = "logz",
+    .paths = .{"src/", "build.zig", "build.zig.zon"},
     .version = "0.0.0",
-    .paths = .{
-        "src",
-        "README.md",
-        "LICENSE",
-        "build.zig",
-        "build.zig.zon",
-    },
-}
+    .dependencies = .{},
+},
+
