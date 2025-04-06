@@ -1,6 +1,12 @@
 .{
-    .name = "logz",
-    .paths = .{ "src/", "build.zig", "build.zig.zon" },
-    .version = "0.0.0",
-    .dependencies = .{},
+    .name = .logz,
+    .fingerprint = 0x89537ef83767d94f,
+    .version = "0.0.1",
+    .paths = .{
+        "src",
+        "README.md",
+        "LICENSE",
+        "build.zig",
+        "build.zig.zon",
+    },
 }
